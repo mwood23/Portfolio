@@ -1,0 +1,84 @@
+/***
+Padding added to account for fixed nav bar
+***/	
+
+	body {
+		padding-top: 40px;
+	}	
+
+	#experience {
+		padding-top: 40px;
+	}
+
+	#testimonials {
+		padding-top: 40px;
+	}
+
+	#projects {
+		padding-top: 40px;
+	}
+
+	#contact {
+		padding-top: 40px;
+	}
+
+	#about {
+		padding-top: 40px;
+	}
+
+	
+/***
+jumbotron code is to make the background image behave and make it larger, 
+still need to test to see if it expands all the way to the fold
+***/
+
+	.jumbotron {
+		padding-top: 34.5%;
+		background-image: url("../img/jumbotron1.jpg");
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		overflow: hidden;
+		height: 95vh;
+		width: 100%;
+	}
+
+	.jumbotron .container {
+		position: relative;
+		text-align: center;
+		color: white;
+
+	}
+
+
+
+/***
+For the experience section logos, resize them to be
+of similar size
+***/
+	.explogo {
+		width: 25%;
+		height: 25%;
+		background-size: cover;
+		padding-top: 1em;
+		padding-left: 1em;
+		padding-right: 1em;
+		padding-bottom: 1em;
+		overflow:hidden;
+	}
+
+	.panel-heading {
+		height: 10em;
+	}
+
+	.container .row .col-md-4 .thumbnail img {
+		width: 200px;
+		height: 200px;
+		background-position: contain;
+		background-position: center;
+
+	}
+
+	.container .section .panel-group .panel {
+		color: blue;
+	}
